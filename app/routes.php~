@@ -13,10 +13,9 @@
 
 Route::get('/', function()
 {
-    return $_SERVER['DB_HOST'];
+    return "It's working";
 });
 
 Route::get('/draft/create', 'DraftController@create');
 
 Route::get('/per/create', 'PerController@create');
-
