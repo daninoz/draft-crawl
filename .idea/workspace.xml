@@ -23,31 +23,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DraftController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/DraftController.php">
+      <file leaf-file-name="artisan" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/artisan">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="29" selection-start="536" selection-end="536" vertical-scroll-proportion="-12.666667" vertical-offset="0" max-vertical-offset="756">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1242">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <file leaf-file-name="2014_01_29_200014_create_tables_v1.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_01_29_200014_create_tables_v1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="40" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="378">
+            <state line="16" column="35" selection-start="304" selection-end="304" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="720">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PerController.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/PerController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="627" selection-end="627" vertical-scroll-proportion="0.41860464" vertical-offset="0" max-vertical-offset="946">
-              <folding>
-                <element signature="e#7#23#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -61,19 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EloquentUserProvider.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php">
+      <file leaf-file-name="routes.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1764">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Builder.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="967" column="24" selection-start="23462" selection-end="23466" vertical-scroll-proportion="-6.1153846" vertical-offset="17016" max-vertical-offset="33768">
+            <state line="15" column="24" selection-start="447" selection-end="447" vertical-scroll-proportion="0.11261731" vertical-offset="0" max-vertical-offset="959">
               <folding />
             </state>
           </provider>
@@ -93,9 +73,12 @@
         <option value="$PROJECT_DIR$/app/models/Player.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_01_29_200014_create_tables_v1.php" />
         <option value="$PROJECT_DIR$/app/controllers/DraftController.php" />
-        <option value="$PROJECT_DIR$/app/routes.php" />
         <option value="$PROJECT_DIR$/app/controllers/PerController.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_01_30_193555_add_per.php" />
+        <option value="$PROJECT_DIR$/config/deploy/production.rb" />
+        <option value="$PROJECT_DIR$/config/deploy.rb" />
+        <option value="$PROJECT_DIR$/Capfile" />
+        <option value="$PROJECT_DIR$/app/routes.php" />
       </list>
     </option>
   </component>
@@ -159,39 +142,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="draft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="draft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="draft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="draft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -245,6 +196,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
     <property name="SearchEverywhereHistory" value="function take(" />
+    <property name="options.lastSelected" value="reference.settingsdialog.textmate.bundles" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -276,7 +231,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2679875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26485923" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -294,6 +249,9 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.rb" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -314,6 +272,107 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/controllers/DraftController.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="29" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="40" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="378">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/PerController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="594">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="14" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="234">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/deploy/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="25" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="378">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/deploy/staging.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/DraftController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="29" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="774">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="40" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="378">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/PerController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Capfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="3" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.0" vertical-offset="666" max-vertical-offset="774">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/deploy/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_01_30_193555_add_per.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="26" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1764" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="967" column="24" selection-start="23466" selection-end="23466" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="33840" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/DraftController.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="35" selection-start="0" selection-end="1218" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="774">
           <folding />
         </state>
@@ -329,9 +388,7 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/PerController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="1" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0" vertical-offset="468" max-vertical-offset="576">
-          <folding>
-            <element signature="e#7#23#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -374,44 +431,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="40" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="378">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_01_29_200014_create_tables_v1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="35" selection-start="304" selection-end="304" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/DraftController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="29" selection-start="536" selection-end="536" vertical-scroll-proportion="-12.666667" vertical-offset="0" max-vertical-offset="756">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="31" selection-start="29" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="51210">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="967" column="24" selection-start="23462" selection-end="23466" vertical-scroll-proportion="-6.1153846" vertical-offset="17016" max-vertical-offset="33768">
-          <folding />
-        </state>
+        <state line="0" column="31" selection-start="29" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="51210" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1764">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1764" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="967" column="24" selection-start="23462" selection-end="23466" vertical-scroll-proportion="-0.073544435" vertical-offset="17406" max-vertical-offset="33768" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/DraftController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="29" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="774">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/deploy/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="9" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="14" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/PerController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="627" selection-end="627" vertical-scroll-proportion="-14.0" vertical-offset="0" max-vertical-offset="576">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Capfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="28" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/deploy/staging.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="933">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artisan">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1242">
           <folding />
         </state>
       </provider>
@@ -423,12 +508,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/PerController.php">
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_01_29_200014_create_tables_v1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="627" selection-end="627" vertical-scroll-proportion="0.41860464" vertical-offset="0" max-vertical-offset="946">
-          <folding>
-            <element signature="e#7#23#0" expanded="true" />
-          </folding>
+        <state line="16" column="35" selection-start="304" selection-end="304" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="24" selection-start="447" selection-end="447" vertical-scroll-proportion="0.11261731" vertical-offset="0" max-vertical-offset="959">
+          <folding />
         </state>
       </provider>
     </entry>

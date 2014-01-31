@@ -11,6 +11,11 @@
 |
 */
 
+Route::get('/', function()
+{
+    return "It's working";
+});
+
 Route::get('/draft/create', 'DraftController@create');
 
 Route::get('/per/create', 'PerController@create');
