@@ -53,7 +53,7 @@ class PerController extends BaseController
 
     public function ranking()
     {
-        $players = Player::where('per', '!=', 'NULL')->where('draft', '>=', '1989')->get();
+        $players = Player::where('per', '!=', 'NULL')->where('draft', '>=', '1989')->where('draft', '<', '2009')->get();
 
         foreach ($players as $player) {
             $array_players[$player->id]['diff'] = $player->fixed_position-$player->position;
