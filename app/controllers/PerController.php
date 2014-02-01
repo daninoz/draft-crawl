@@ -7,7 +7,7 @@ class PerController extends BaseController
 {
     public function create()
     {
-        $players = Player::where('link', '!=', '')->skip(0)->take(100)->get();
+        $players = Player::where('link', '!=', '')->where('per', '=', NULL)->get();
         foreach ($players as $player) {
             $curl = Curl::get("http://www.basketball-reference.com".$player->link);
 

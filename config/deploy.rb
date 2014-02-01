@@ -22,15 +22,4 @@ namespace :deploy do
 
     after :updated, 'deploy:artisan_migrate'
 
-    desc 'artisan example'
-    task :artisan_example do
-        on roles(:web) do
-            within release_path do
-                execute 'php', 'artisan'
-            end
-        end
-    end
-
-    after :updated, 'deploy:artisan_example'
-
 end
