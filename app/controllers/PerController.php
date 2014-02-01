@@ -61,11 +61,11 @@ class PerController extends BaseController
             $array_players[$player->id]['link'] = $player->link;
         }
 
-        rsort($array_players);
+        sort($array_players);
 
-        foreach ($array_players as $player)
+        foreach ($array_players as $position => $player)
         {
-            echo "<p>".$player['diff'].": <a href='http://www.basketball-reference.com/".$player['link']."'>".$player['name']."</a></p>";
+            echo "<p>".($position+1).": <a href='http://www.basketball-reference.com{$player['link']}'>{$player['name']}</a> {$player['diff']}</p>";
         }
     }
 }
