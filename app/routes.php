@@ -20,3 +20,5 @@ Route::get('/draft/create', 'DraftController@create');
 
 Route::get('/per/create', 'PerController@create');
 
+Route::get('/per/reorder', 'PerController@reorder');
+
