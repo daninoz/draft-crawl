@@ -50,4 +50,22 @@ class PerController extends BaseController
             }
         }
     }
+
+    public function ranking()
+    {
+        $players = Player::where('per', '!=', 'NULL')->get();
+
+        foreach ($players as $player) {
+            $array_players[$player->id]['diff'] = $player->fixed_position-$player->position;
+            $array_players[$player->id]['name'] = $player->name;
+            $array_players[$player->id]['link'] = $player->link;
+        }
+
+        rsort($array_players);
+
+        foreach ($array_players as $player)
+        {
+            echo "<p>".$player['diff'].": <a href='http://www.basketball-reference.com/".$player['link']."'>".$player['name']."</a></p>";
+        }
+    }
 }
