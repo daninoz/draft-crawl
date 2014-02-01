@@ -8,6 +8,7 @@ class PerController extends BaseController
     public function create()
     {
         $players = Player::where('link', '!=', '')->where('per', '=', NULL)->get();
+        
         foreach ($players as $player) {
             $curl = Curl::get("http://www.basketball-reference.com".$player->link);
 
@@ -17,11 +18,12 @@ class PerController extends BaseController
 
             $crawler = $crawler->filter('#advanced > tfoot > tr:not(.partial_table)');
 
+            if ($crawler->count() > 0) {
+                $crwl = $crawler->eq(0);
+                $player->per = $crwl->filter('td')->eq(7)->html();
 
-            $crwl = $crawler->eq(0);
-            $player->per = $crwl->filter('td')->eq(7)->html();
-
-            $player->save();
+                $player->save();
+            }
 
         }
     }
