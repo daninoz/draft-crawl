@@ -18,7 +18,9 @@ Route::get('/', function()
 
 Route::get('/draft/create', 'DraftController@create');
 
-Route::get('/per/create', 'PerController@create');
+Route::get('/per/career', 'PerController@career');
+
+Route::get('/per/season', 'PerController@season');
 
 Route::get('/per/reorder', 'PerController@reorder');
 

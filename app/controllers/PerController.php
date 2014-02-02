@@ -5,7 +5,7 @@ use Symfony\Component\DomCrawler\Crawler;
 
 class PerController extends BaseController
 {
-    public function create()
+    public function career()
     {
         $players = Player::where('link', '!=', '')->where('per', '=', NULL)->get();
 
@@ -25,6 +25,34 @@ class PerController extends BaseController
                 $player->save();
             }
 
+        }
+    }
+
+    public function season()
+    {
+        $players = Player::where('link', '!=', '')->where('draft', '>=', '1989')->where('draft', '<=', '2010')->get();
+
+        foreach ($players as $player) {
+            $curl = Curl::get("http://www.basketball-reference.com".$player->link);
+
+            $html = $curl[0]->getContent();
+
+            $crawler = new Crawler($html);
+
+            $crawler = $crawler->filter('#advanced > tbody > tr.full_table');
+
+            for ($i = 0; $i < $crawler->count(); $i++ ) {
+                $crwl = $crawler->eq($i)->filter('td');
+
+                $season = Season::firstOrCreate(['year' => $crwl->eq(0)->filter('a')->html()]);
+
+                $season->players()->attach($player->id, ['per' => $crwl->eq(7)->html(), 'games' => $crwl->eq(5)->html()]);
+
+                /*echo "Season: ".$crwl->eq(0)->filter('a')->html()."<br />";
+                echo "Games: ".$crwl->eq(5)->html()."<br />";
+                echo "OER: ".$crwl->eq(7)->html()."<br />";
+                echo "<br />";*/
+            }
         }
     }
 
