@@ -41,7 +41,7 @@ class PerController extends BaseController
 
             $crawler = $crawler->filter('#advanced > tbody > tr.full_table');
 
-            if ($players->seasons->count() > 0) {
+            if ($player->seasons->count() > 0) {
                 $player->seasons()->detach();
             }
 
