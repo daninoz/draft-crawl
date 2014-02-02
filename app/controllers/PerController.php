@@ -30,7 +30,7 @@ class PerController extends BaseController
 
     public function season()
     {
-        $players = Player::where('link', '!=', '')->where('draft', '>=', '1989')->where('draft', '<=', '2010')->get();
+        $players = Player::where('link', '!=', '')->where('id', '>=', 2065)->where('draft', '>=', '1989')->where('draft', '<=', '2010')->get();
 
         foreach ($players as $player) {
             $curl = Curl::get("http://www.basketball-reference.com".$player->link);
@@ -40,6 +40,10 @@ class PerController extends BaseController
             $crawler = new Crawler($html);
 
             $crawler = $crawler->filter('#advanced > tbody > tr.full_table');
+
+            if ($players->seasons->count() > 0) {
+                $player->seasons()->detach();
+            }
 
             for ($i = 0; $i < $crawler->count(); $i++ ) {
                 $crwl = $crawler->eq($i)->filter('td');
