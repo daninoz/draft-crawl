@@ -30,7 +30,7 @@ class PerController extends BaseController
 
     public function season()
     {
-        $players = Player::where('link', '!=', '')->where('id', '>=', 2065)->where('draft', '>=', '1989')->where('draft', '<=', '2010')->get();
+        $players = Player::where('link', '!=', '')->where('id', '>=', 2463)->where('draft', '>=', '1989')->where('draft', '<=', '2010')->get();
 
         foreach ($players as $player) {
             $curl = Curl::get("http://www.basketball-reference.com".$player->link);
